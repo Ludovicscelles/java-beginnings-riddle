@@ -58,6 +58,7 @@ public class NumberRiddleWithOptions {
       replay = answer.equalsIgnoreCase("o");
 
     }
+    scanner.close();
   }
 
   // Choix de la difficulté -> définit la borne maximale du nombre secret.
